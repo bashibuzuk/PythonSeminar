@@ -8,8 +8,7 @@
 #     4
 
 
-def summ(number):
-    
+def summ(number): 
     if number == 0:
         return 0
     return summ(number-1) + 1
