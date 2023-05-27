@@ -19,3 +19,5 @@ def result(x):
     return tuple(x.split('='))
 
 print(tuple(map(result , modern_list)))
+
+print(tuple(map(lambda x: tuple(x.split('=')), modern_list)))
